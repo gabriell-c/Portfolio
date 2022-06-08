@@ -331,28 +331,28 @@ sec2.addEventListener("click", () =>{
 
 sec3.addEventListener("click", () =>{
     scroll({
-        top: 1230,
+        top: 1150,
         behavior: "smooth"
     });
 })
 
 sec4.addEventListener("click", () =>{
     scroll({
-        top: 2080,
+        top: 1760,
         behavior: "smooth"
     });
 })
 
 sec5.addEventListener("click", () =>{
     scroll({
-        top: 4410,
+        top: 4090,
         behavior: "smooth"
     });
 })
 
 sec6.addEventListener("click", () =>{
     scroll({
-        top: 5350,
+        top: 5000,
         behavior: "smooth"
     });
 })
@@ -372,7 +372,7 @@ sec2M.addEventListener("click", () =>{
 
 sec3M.addEventListener("click", () =>{
     scroll({
-        top: 1640,
+        top: 1590,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -380,7 +380,7 @@ sec3M.addEventListener("click", () =>{
 
 sec4M.addEventListener("click", () =>{
     scroll({
-        top: 2380,
+        top: 2080,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -388,7 +388,7 @@ sec4M.addEventListener("click", () =>{
 
 sec5M.addEventListener("click", () =>{
     scroll({
-        top: 6650,
+        top: 6550,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -396,7 +396,7 @@ sec5M.addEventListener("click", () =>{
 
 sec6M.addEventListener("click", () =>{
     scroll({
-        top: 7070,
+        top: 7200,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";

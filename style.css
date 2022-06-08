@@ -351,10 +351,16 @@ h2{
 }
 
 h3{
+    margin-bottom: 5%;
     color: #eeeeee;
     font-size: 60px;
     text-align: center;
     font-family: 'Poppins-bold';
+}
+
+.des{
+    color: #222;
+    font-size: 20px;
 }
 
 .habilidades{
@@ -671,7 +677,7 @@ h5{
 
 .section5 .swiper-slide img{
     position: relative;
-    height: 100vh;
+    height: 70vh;
 }
 
 .swiper-pagination-bullet{
@@ -908,15 +914,6 @@ footer{
 
 /*=======================RESPONSIVE=========================*/
 
-@media only screen and (max-width: 1080px){
-
-    .section5 .swiper-slide img{
-        position: relative;
-        height: auto;
-        width: 100vw;
-    }
-}
-
 @media only screen and (max-width: 980px){
 
     .gif{
@@ -988,6 +985,11 @@ footer{
         display: flex;
     }
 
+    .section5 .swiper-slide img{
+    position: relative;
+    height: 60vh;
+}
+
 }
 
 @media only screen and (max-width: 694px){
@@ -996,6 +998,12 @@ footer{
         color: #eeeeee;
         font-size: 25px;
         letter-spacing: 1px;
+    }
+
+    .section5 .swiper-slide img{
+        position: relative;
+        height: auto;
+        width: 100%;
     }
 
     .title{
