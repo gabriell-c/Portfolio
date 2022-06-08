@@ -10,7 +10,7 @@
 
 <h2 align="center">📖Sobre</h2>
 
-<p align="center">Este projeto foi realizado com o objetivo de mostrar meus conhecimentos no desenvolvimento web e melhorar meus conhecimentos com o Bootstrap. Ele contém uma navbar responsiva, um slide com minhas habilidades, uma barra de progresso, cards com meus projetos lincadas aos seus repositórios e aos seus domínios, outro slide com os meus certificados e uma área para contato. 100% responsivo.</p>
+<p align="center">Este projeto foi realizado com o objetivo de mostrar meus conhecimentos no desenvolvimento web e melhorar meus conhecimentos com o Bootstrap. Ele contém uma navbar responsiva, um slide com minhas habilidades, cards com meus projetos lincadas aos seus repositórios e aos seus domínios, outro slide com os meus certificados e uma área para contato. 100% responsivo.</p>
 
 ---
 
