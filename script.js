@@ -12,12 +12,24 @@ const proj3 = document.getElementById("proj3")
 const proj4 = document.getElementById("proj4")
 const proj5 = document.getElementById("proj5")
 const proj6 = document.getElementById("proj6")
+const proj7 = document.getElementById("proj7")
+const proj8 = document.getElementById("proj8")
+const proj9 = document.getElementById("proj9")
+const proj10 = document.getElementById("proj10")
+const proj11 = document.getElementById("proj11")
+const proj12 = document.getElementById("proj12")
 const hov1 = document.getElementById("hov1")
 const hov2 = document.getElementById("hov2")
 const hov3 = document.getElementById("hov3")
 const hov4 = document.getElementById("hov4")
 const hov5 = document.getElementById("hov5")
 const hov6 = document.getElementById("hov6")
+const hov7 = document.getElementById("hov7")
+const hov8 = document.getElementById("hov8")
+const hov9 = document.getElementById("hov9")
+const hov10 = document.getElementById("hov10")
+const hov11 = document.getElementById("hov11")
+const hov12 = document.getElementById("hov12")
 const erroricon1 = document.getElementById("errorIcon1")
 const error1 = document.getElementById("error1")
 const emailI = document.getElementById("emailI")
@@ -150,6 +162,60 @@ proj6.addEventListener("mouseout", ()=>{
 
 //-----
 
+proj7.addEventListener("mouseover", ()=>{
+    hov7.style.top = "0%";
+})
+proj7.addEventListener("mouseout", ()=>{
+    hov7.style.top = "100%";
+})
+
+//-----
+
+proj8.addEventListener("mouseover", ()=>{
+    hov8.style.top = "0%";
+})
+proj8.addEventListener("mouseout", ()=>{
+    hov8.style.top = "100%";
+})
+
+//-----
+
+proj9.addEventListener("mouseover", ()=>{
+    hov9.style.top = "0%";
+})
+proj9.addEventListener("mouseout", ()=>{
+    hov9.style.top = "100%";
+})
+
+//-----
+
+proj10.addEventListener("mouseover", ()=>{
+    hov10.style.top = "0%";
+})
+proj10.addEventListener("mouseout", ()=>{
+    hov10.style.top = "100%";
+})
+
+//-----
+
+proj11.addEventListener("mouseover", ()=>{
+    hov11.style.top = "0%";
+})
+proj11.addEventListener("mouseout", ()=>{
+    hov11.style.top = "100%";
+})
+
+//-----
+
+proj12.addEventListener("mouseover", ()=>{
+    hov12.style.top = "0%";
+})
+proj12.addEventListener("mouseout", ()=>{
+    hov12.style.top = "100%";
+})
+
+//-----
+
 btnTop.addEventListener("click", ()=>{
     scroll({
         top: top,
@@ -163,8 +229,7 @@ function scrol() {
         span.style.color = "#eeeeee";
         btnTop.style.bottom = "5%"
         hov()
-    }
-    else {
+    }else {
         nav.style.backgroundColor = "transparent"
         span.style.color = "#6f00ff";
         btnTop.style.bottom = "-10%"
@@ -207,17 +272,13 @@ const swiper = new Swiper('.swiper.tec', {
 });
 
 
-
-
-
 const swiper2 = new Swiper('.swiper.cert', {
     autoplay: {
-    delay: 4000,
+    delay: 3000,
     },
     loop: true,
     grabCursor: true,
     spaceBetween: 20,
-
 
     pagination: {
         clickable: true,
@@ -256,8 +317,7 @@ const chkN=() =>{
         error1.style.textShadow = "#ff002650";
         erroricon1.style.color = "#ff0026";
         erroricon1.style.textShadow = "#ff002650";
-    }
-    else{
+    }else{
         nameI.style.border = "solid 3px #6f00ff";
         nameI.style.boxShadow = "0 0 10px #6f00ffab";
         error1.style.display = "none";
@@ -275,8 +335,7 @@ const chkE=()=>{
         error2.style.textShadow = "#ff002650";
         erroricon2.style.color = "#ff0026";
         erroricon2.style.textShadow = "#ff002650";
-    }
-    else{
+    }else{
         emailI.style.border = "solid 3px #6f00ff";
         emailI.style.boxShadow = "0 0 10px #6f00ffab";
         error2.style.display = "none";
@@ -294,8 +353,7 @@ const chkA=()=>{
         error3.style.textShadow = "#ff002650";
         erroricon3.style.color = "#ff0026";
         erroricon3.style.textShadow = "#ff002650";
-    }
-    else{
+    }else{
         assuntoI.style.border = "solid 3px #6f00ff";
         assuntoI.style.boxShadow = "0 0 10px #6f00ffab";
         error3.style.display = "none";
@@ -313,8 +371,7 @@ const chkM=()=>{
         error4.style.textShadow = "#ff002650";
         erroricon4.style.color = "#ff0026";
         erroricon4.style.textShadow = "#ff002650";
-    }
-    else{
+    }else{
         mensagemI.style.border = "solid 3px #6f00ff";
         mensagemI.style.boxShadow = "0 0 10px #6f00ffab";
         error4.style.display = "none";
@@ -345,22 +402,17 @@ sec4.addEventListener("click", () =>{
 
 sec5.addEventListener("click", () =>{
     scroll({
-        top: 4090,
+        top: 6050,
         behavior: "smooth"
     });
 })
 
 sec6.addEventListener("click", () =>{
     scroll({
-        top: 5000,
+        top: 8000,
         behavior: "smooth"
     });
 })
-
-
-
-
-
 
 sec2M.addEventListener("click", () =>{
     scroll({
@@ -372,7 +424,7 @@ sec2M.addEventListener("click", () =>{
 
 sec3M.addEventListener("click", () =>{
     scroll({
-        top: 1590,
+        top: 1580,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -380,7 +432,7 @@ sec3M.addEventListener("click", () =>{
 
 sec4M.addEventListener("click", () =>{
     scroll({
-        top: 2080,
+        top: 2070,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -388,7 +440,7 @@ sec4M.addEventListener("click", () =>{
 
 sec5M.addEventListener("click", () =>{
     scroll({
-        top: 6550,
+        top: 10470,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
@@ -396,7 +448,7 @@ sec5M.addEventListener("click", () =>{
 
 sec6M.addEventListener("click", () =>{
     scroll({
-        top: 7200,
+        top: 12000,
         behavior: "smooth"
     });
     navbarM.style.top = "-900px";
