@@ -96,14 +96,19 @@ body{
     margin-bottom: 0;
 }
 
+#navbar a{
+    text-decoration: none;
+    color: #eee;
+    margin: 0 .5em;
+    padding: 0 .5em;
+}
+
 #navbar ul li{
-    margin: 0 .5%;
     height: 75px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-align: center;
-    padding: 0 2%;
     cursor: pointer;
 }
 
@@ -969,9 +974,6 @@ footer{
         align-items: flex-end;
         justify-content: center;
     }
-}
-
-@media only screen and (max-width: 826px){
 
     #navbar ul{
         color: #eeeeee;
@@ -985,6 +987,9 @@ footer{
     #navbarS{
         display: flex;
     }
+}
+
+@media only screen and (max-width: 826px){
 
     .section5 .swiper-slide img{
     position: relative;
@@ -1199,9 +1204,9 @@ footer{
     }
 
     .contatos a{
-    font-size: 50px;
-    transition: .1s;
-    margin: 0 2%;
+        font-size: 50px;
+        transition: .1s;
+        margin: 0 2%;
     } 
 
     #navbarS ul{

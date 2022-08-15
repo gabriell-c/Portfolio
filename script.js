@@ -1,11 +1,6 @@
 const btnTop = document.getElementById("top")
 const nav = document.getElementById("navbar")
 const span = document.getElementById("spa")
-const li = document.getElementById("li")
-const li1 = document.getElementById("li1")
-const li2 = document.getElementById("li2")
-const li3 = document.getElementById("li3")
-const li4 = document.getElementById("li4")
 const proj1 = document.getElementById("proj1")
 const proj2 = document.getElementById("proj2")
 const proj3 = document.getElementById("proj3")
@@ -41,20 +36,6 @@ const error3 = document.getElementById("error3")
 const mensagemI = document.getElementById("mensagemI")
 const erroricon4 = document.getElementById("errorIcon4")
 const error4 = document.getElementById("error4")
-
-
-
-const sec2 = document.getElementById("li")
-const sec3 = document.getElementById("li1")
-const sec4 = document.getElementById("li2")
-const sec5 = document.getElementById("li3")
-const sec6 = document.getElementById("li4")
-
-const sec2M = document.getElementById("liS")
-const sec3M = document.getElementById("li1S")
-const sec4M = document.getElementById("li2S")
-const sec5M = document.getElementById("li3S")
-const sec6M = document.getElementById("li4S")
 
 
 const navbarM = document.getElementById("navbarS")
@@ -378,78 +359,3 @@ const chkM=()=>{
         erroricon4.style.display = "none";
     }
 }
-
-sec2.addEventListener("click", () =>{
-    scroll({
-        top: 600,
-        behavior: "smooth"
-    });
-})
-
-sec3.addEventListener("click", () =>{
-    scroll({
-        top: 1150,
-        behavior: "smooth"
-    });
-})
-
-sec4.addEventListener("click", () =>{
-    scroll({
-        top: 1760,
-        behavior: "smooth"
-    });
-})
-
-sec5.addEventListener("click", () =>{
-    scroll({
-        top: 6050,
-        behavior: "smooth"
-    });
-})
-
-sec6.addEventListener("click", () =>{
-    scroll({
-        top: 8000,
-        behavior: "smooth"
-    });
-})
-
-sec2M.addEventListener("click", () =>{
-    scroll({
-        top: 640,
-        behavior: "smooth"
-    });
-    navbarM.style.top = "-900px";
-})
-
-sec3M.addEventListener("click", () =>{
-    scroll({
-        top: 1580,
-        behavior: "smooth"
-    });
-    navbarM.style.top = "-900px";
-})
-
-sec4M.addEventListener("click", () =>{
-    scroll({
-        top: 2070,
-        behavior: "smooth"
-    });
-    navbarM.style.top = "-900px";
-})
-
-sec5M.addEventListener("click", () =>{
-    scroll({
-        top: 10470,
-        behavior: "smooth"
-    });
-    navbarM.style.top = "-900px";
-})
-
-sec6M.addEventListener("click", () =>{
-    scroll({
-        top: 12000,
-        behavior: "smooth"
-    });
-    navbarM.style.top = "-900px";
-})
