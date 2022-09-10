@@ -14,6 +14,7 @@ const proj10 = document.getElementById("proj10")
 const proj11 = document.getElementById("proj11")
 const proj12 = document.getElementById("proj12")
 const proj13 = document.getElementById("proj13")
+const proj14 = document.getElementById("proj14")
 const hov1 = document.getElementById("hov1")
 const hov2 = document.getElementById("hov2")
 const hov3 = document.getElementById("hov3")
@@ -27,6 +28,7 @@ const hov10 = document.getElementById("hov10")
 const hov11 = document.getElementById("hov11")
 const hov12 = document.getElementById("hov12")
 const hov13 = document.getElementById("hov13")
+const hov14 = document.getElementById("hov14")
 const erroricon1 = document.getElementById("errorIcon1")
 const error1 = document.getElementById("error1")
 const emailI = document.getElementById("emailI")
@@ -204,6 +206,15 @@ proj13.addEventListener("mouseover", ()=>{
 })
 proj13.addEventListener("mouseout", ()=>{
     hov13.style.top = "100%";
+})
+
+//-----
+
+proj14.addEventListener("mouseover", ()=>{
+    hov14.style.top = "0%";
+})
+proj14.addEventListener("mouseout", ()=>{
+    hov14.style.top = "100%";
 })
 
 //-----

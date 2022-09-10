@@ -99,8 +99,7 @@ body{
 #navbar a{
     text-decoration: none;
     color: #eee;
-    margin: 0 .5em;
-    padding: 0 .5em;
+    margin: 0 .2em;
 }
 
 #navbar ul li{
@@ -110,6 +109,7 @@ body{
     display: flex;
     text-align: center;
     cursor: pointer;
+    padding: 0 1em;
 }
 
 .menu1:hover{
@@ -503,7 +503,7 @@ h4{
 .proj1{
     margin: 2%;
     width: 500px;
-    height: 600px;
+    height: 700px;
     border-radius: 7px;
     background-color: #1d1d1d;
     display: flex;
@@ -539,7 +539,7 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     color: #eeeeee;
 }
 
@@ -574,13 +574,12 @@ h4{
     position: relative;
     display: inline-flex;
     justify-content: flex-start;
-    align-items: center;
     list-style: none;
     padding: 0;
 }
 
 .text ul li{
-    margin: 0 5%;
+    margin: 0 .4em;
 }
 
 .text i{
@@ -1220,6 +1219,29 @@ footer{
         text-decoration: none;
         align-items: center;
         margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .text ul li{
+        margin: 0 .2em;
+    }
+    
+    .text i{
+        font-size: 35px;
+    }
+
+    .text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        color: #eeeeee;
+    }
+
+    .hov button{
+        font-size: 18px;
     }
 }
 
